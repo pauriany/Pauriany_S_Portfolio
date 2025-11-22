@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pauriany Segarra - Web Developer</title>
-    <meta name="description" content="Portfolio of Pauriany Segarra — web developer & educator." />
+    <meta
+      name="description"
+      content="Portfolio of Pauriany Segarra — web developer & educator building learning-focused web applications."
+    />
     <link rel="icon" href="/favicon.ico" />
   </head>
   <body>
     <a href="#home" class="skip-link">Skip to content</a>
     <div class="container">
+      <!-- NAVIGATION -->
       <nav aria-label="Main">
         <ul>
           <li><a href="#home" class="nav-link">Home</a></li>
@@ -20,13 +24,59 @@
       </nav>
 
       <div class="sections-container">
+        <!-- HOME / HERO -->
         <section id="home" class="section">
           <h1>Pauriany Segarra</h1>
           <h2>Web Developer & Educator</h2>
-          <p>Welcome to my portfolio! I'm a passionate web developer and educator who creates engaging digital experiences. I specialize in building interactive web applications while exploring the powerful intersection between education and technology. When I'm not coding, you can find me working on cars or exploring the latest automotive tech!</p>
+
+          <p>
+            I’m a web developer and educator who builds learning-focused web applications.
+            I love working at the intersection of <strong>technology, education, and user
+            experience</strong> — creating tools that feel intuitive, accessible, and genuinely
+            helpful. When I’m not coding, you can usually find me working on cars or
+            exploring the latest automotive tech.
+          </p>
+
+          <p>
+            <strong>Career Goal:</strong> Web Developer / EdTech Engineer building products that
+            support learning, community, and real people.
+          </p>
+
+          <!-- QUICK CONTACT / REQUIRED LINKS -->
+          <div class="hero-links">
+            <a href="mailto:pauriany@gmail.com" class="primary-btn">Email Me</a>
+
+            <a
+              href="/Pauriany_Segarra_Resume.pdf"
+              class="secondary-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Resume
+            </a>
+
+            <a
+              href="https://linkedin.com/in/pauriany-segarra"
+              class="secondary-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+
+            <a
+              href="https://github.com/pauriany"
+              class="secondary-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+
           <div class="skills-list">
-            <div class="skill-item">HTML/CSS</div>
-            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">HTML5 / CSS3</div>
+            <div class="skill-item">JavaScript (ES6+)</div>
             <div class="skill-item">API Integration</div>
             <div class="skill-item">Java</div>
             <div class="skill-item">Educational Technology</div>
@@ -34,62 +84,217 @@
           </div>
         </section>
 
+        <!-- PROJECTS -->
         <section id="projects" class="section">
-          <h2>My Projects</h2>
-          <p>Here are some of the projects I've developed, showcasing my skills in web development and creative problem-solving.</p>
+          <h2>Projects</h2>
+          <p>
+            These projects showcase my skills in web development, problem-solving, and building
+            meaningful user experiences. Each project includes a clear goal, tech stack,
+            features, challenges, and design considerations.
+          </p>
+
           <div class="projects-grid">
-            <div class="project-card">
+            <!-- VIBE PI -->
+            <article class="project-card">
               <h3>🎭 Vibe Pi</h3>
-              <p><strong>Mood-Based Content Platform</strong></p>
-              <p>An interactive web app that captures memes and quotes based on user mood input.</p>
-              <p><strong>Technologies:</strong> JavaScript, API Integration, HTML/CSS, Responsive Design</p>
-              <div class="project-links">
-                <a href="https://vibe-p-i.netlify.app/" target="_blank" rel="noopener noreferrer"><span>Live Demo</span></a>
-                <a href="https://github.com/pauriany/vibe-pi" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
-              </div>
-            </div>
+              <p><strong>Type:</strong> Mood-Based Content Platform</p>
 
-            <div class="project-card">
+              <p>
+                Vibe Pi is an interactive web app that captures memes and quotes based on
+                a user’s current mood. It was designed to be quick, playful, and responsive
+                on any device.
+              </p>
+
+              <h4>Project Goal</h4>
+              <p>
+                Build a playful browser application that uses external APIs and user input
+                to serve personalized content in real time.
+              </p>
+
+              <h4>Tech Stack</h4>
+              <p>
+                JavaScript, API Integration, HTML/CSS, Responsive Design
+              </p>
+
+              <div class="project-subsection">
+                <h4>Key Features</h4>
+                <ul>
+                  <li>User mood input controls the content shown.</li>
+                  <li>Fetches memes and quotes from external APIs.</li>
+                  <li>Responsive design that works on any device.</li>
+                </ul>
+              </div>
+
+              <div class="project-subsection">
+                <h4>Challenge &amp; Solution</h4>
+                <p>
+                  <strong>Challenge:</strong> Some API responses returned limited or no content.
+                  <br />
+                  <strong>Solution:</strong> Added fallback messages and conditional rendering so users
+                  always receive content without broken UI.
+                </p>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://vibe-p-i.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>Live Demo</span>
+                </a>
+                <a
+                  href="https://github.com/pauriany/vibe-pi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- JAVA FLEX GALLERY -->
+            <article class="project-card">
               <h3>🖼️ Java Flex Gallery</h3>
-              <p><strong>Dynamic Image Gallery</strong></p>
-              <p>A flexible and responsive image gallery built with Java and CSS.</p>
-              <p><strong>Technologies:</strong> Java, CSS Flexbox, Responsive Design, Animation</p>
-              <div class="project-links">
-                <a href="https://github.com/pauriany/java-flex-gallery" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
-              </div>
-            </div>
+              <p><strong>Type:</strong> Dynamic Image Gallery</p>
 
-            <div class="project-card">
-              <h3>⚔️ Knights of JavaScript</h3>
-              <p><strong>Interactive JavaScript Experience</strong></p>
-              <p>Showcases advanced JS concepts with dynamic content and user interaction.</p>
-              <p><strong>Technologies:</strong> JavaScript, DOM, Events, CSS3</p>
-              <div class="project-links">
-                <a href="https://github.com/pauriany/knights-of-javascript" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+              <p>
+                A flexible and responsive image gallery built with Java and CSS,
+                focused on layout control and animation.
+              </p>
+
+              <h4>Project Goal</h4>
+              <p>
+                Practice Java logic while building a clean gallery experience that adapts to different
+                screen sizes without losing structure.
+              </p>
+
+              <h4>Tech Stack</h4>
+              <p>
+                Java, CSS Flexbox, Animation, Responsive Design
+              </p>
+
+              <div class="project-subsection">
+                <h4>Key Features</h4>
+                <ul>
+                  <li>Auto-adjusting layout using Flexbox.</li>
+                  <li>Hover animations that highlight images.</li>
+                  <li>Minimal UI for strong visual focus.</li>
+                </ul>
               </div>
-            </div>
+
+              <div class="project-subsection">
+                <h4>Challenge &amp; Solution</h4>
+                <p>
+                  <strong>Challenge:</strong> Keep images proportional and avoid awkward spacing on resize.
+                  <br />
+                  <strong>Solution:</strong> Used wrap rules and size constraints to ensure balance across
+                  breakpoints.
+                </p>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/pauriany/java-flex-gallery"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- KNIGHTS OF JAVASCRIPT -->
+            <article class="project-card">
+              <h3>⚔️ Knights of JavaScript</h3>
+              <p><strong>Type:</strong> Interactive JS Experience</p>
+
+              <p>
+                A playful project that uses DOM manipulation and events to let users control “knight”
+                actions and trigger UI changes.
+              </p>
+
+              <h4>Project Goal</h4>
+              <p>
+                Demonstrate core JavaScript concepts (events, state, DOM updates) through a themed,
+                responsive experience.
+              </p>
+
+              <h4>Tech Stack</h4>
+              <p>
+                JavaScript, DOM, Events, CSS3
+              </p>
+
+              <div class="project-subsection">
+                <h4>Key Features</h4>
+                <ul>
+                  <li>Buttons trigger different knight actions and responses.</li>
+                  <li>UI changes dynamically based on user choices.</li>
+                  <li>Modular JS functions make the app expandable.</li>
+                </ul>
+              </div>
+
+              <div class="project-subsection">
+                <h4>Challenge &amp; Solution</h4>
+                <p>
+                  <strong>Challenge:</strong> As more actions were added, the JavaScript became harder to maintain.
+                  <br />
+                  <strong>Solution:</strong> Refactored logic into smaller functions grouped by behavior.
+                </p>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/pauriany/knights-of-javascript"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </article>
           </div>
         </section>
 
+        <!-- ABOUT -->
         <section id="about" class="section">
           <h2>About Me</h2>
-          <p>I'm a web developer and educator with a passion for creating innovative digital solutions that bridge the gap between technology and learning.</p>
+          <p>
+            I’m a web developer and educator with a passion for building tools that help
+            people learn and grow. My education background drives how I build: real users,
+            simple flows, intuitive design.
+          </p>
+
           <h3>My Story</h3>
-          <p>As an educator, I understand how people learn and what makes technology truly accessible. I build intuitive, meaningful user experiences.</p>
+          <p>
+            I started in education and community work, which taught me how to listen,
+            explain complex ideas simply, and design around human behavior. Now I use code
+            to solve the same types of problems at scale.
+          </p>
+
           <h3>My Approach</h3>
-          <p>I focus on understanding user needs and translating them into clean, efficient code.</p>
-          <h3>Skills & Technologies</h3>
+          <p>
+            Before I code, I ask:
+            <em>Who is this for, and how can I make their experience easier?</em>
+            I build with accessibility, clarity, and user emotion in mind.
+          </p>
+
+          <h3>Skills &amp; Technologies</h3>
           <ul>
             <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Responsive Design</li>
-            <li><strong>Backend:</strong> Java, API Development and Integration</li>
-            <li><strong>Focus Areas:</strong> Educational Technology, User-Centered Design</li>
-            <li><strong>Design:</strong> UI/UX, Accessibility, Learning Experience Design</li>
+            <li><strong>Backend:</strong> Java, API Development &amp; Integration</li>
+            <li><strong>Focus Areas:</strong> Educational Technology, User Experience</li>
+            <li><strong>Design:</strong> UI/UX, Accessibility, Learning Design</li>
           </ul>
         </section>
 
+        <!-- CONTACT -->
         <section id="contact" class="section">
           <h2>Get In Touch</h2>
-          <p>I'd love to hear about your project ideas or discuss opportunities—let’s connect!</p>
+          <p>
+            I’d love to hear about your project ideas or discuss opportunities — let’s connect!
+          </p>
+
           <div class="contact-form">
             <form id="contactForm" action="https://formspree.io/f/YOUR_ID" method="POST">
               <div class="form-group">
@@ -108,19 +313,23 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="6" required></textarea>
               </div>
-              <button type="submit" class="submit-btn"><span>Send Message</span></button>
+              <button type="submit" class="submit-btn">
+                <span>Send Message</span>
+              </button>
             </form>
           </div>
-          <div style="margin-top:30px; text-align:center;">
+
+          <div style="margin-top: 30px; text-align: center;">
             <p><strong>Connect with me:</strong></p>
-            <p>📧 <a href="mailto:pauriany@gmail.com" target="_blank" rel="noopener noreferrer" style="color:#6b46c1;">pauriany@gmail.com</a></p>
-            <p>📱 (555) 123-4567</p>
-            <p>💼 <a href="https://linkedin.com/in/pauriany-segarra" target="_blank" rel="noopener noreferrer" style="color:#6b46c1;">LinkedIn Profile</a></p>
-            <p>🐙 <a href="https://github.com/pauriany" target="_blank" rel="noopener noreferrer" style="color:#6b46c1;">GitHub Profile</a></p>
+            <p>📧 <a href="mailto:pauriany@gmail.com" style="color: #6b46c1;">pauriany@gmail.com</a></p>
+            <p>📱 917-399-7944</p>
+            <p>💼 <a href="https://linkedin.com/in/pauriany-segarra" style="color: #6b46c1;">LinkedIn</a></p>
+            <p>🐙 <a href="https://github.com/pauriany" style="color: #6b46c1;">GitHub</a></p>
           </div>
         </section>
       </div>
     </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
